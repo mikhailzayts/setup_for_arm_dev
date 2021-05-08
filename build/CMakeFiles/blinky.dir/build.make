@@ -61,10 +61,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\mihai\Desktop\empty_proj
+CMAKE_SOURCE_DIR = C:\Users\mihai\Desktop\setup_for_arm_dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\mihai\Desktop\empty_proj\build
+CMAKE_BINARY_DIR = C:\Users\mihai\Desktop\setup_for_arm_dev\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/blinky.dir/depend.make
@@ -77,21 +77,21 @@ include CMakeFiles/blinky.dir/flags.make
 
 CMakeFiles/blinky.dir/sources/application/main.c.o: CMakeFiles/blinky.dir/flags.make
 CMakeFiles/blinky.dir/sources/application/main.c.o: ../sources/application/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mihai\Desktop\empty_proj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/blinky.dir/sources/application/main.c.o"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE --sysroot="C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/../arm-none-eabi" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blinky.dir\sources\application\main.c.o -c C:\Users\mihai\Desktop\empty_proj\sources\application\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mihai\Desktop\setup_for_arm_dev\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/blinky.dir/sources/application/main.c.o"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE --sysroot="C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/../arm-none-eabi" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blinky.dir\sources\application\main.c.o -c C:\Users\mihai\Desktop\setup_for_arm_dev\sources\application\main.c
 
 CMakeFiles/blinky.dir/sources/application/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky.dir/sources/application/main.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE --sysroot="C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/../arm-none-eabi" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mihai\Desktop\empty_proj\sources\application\main.c > CMakeFiles\blinky.dir\sources\application\main.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE --sysroot="C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/../arm-none-eabi" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mihai\Desktop\setup_for_arm_dev\sources\application\main.c > CMakeFiles\blinky.dir\sources\application\main.c.i
 
 CMakeFiles/blinky.dir/sources/application/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky.dir/sources/application/main.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE --sysroot="C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/../arm-none-eabi" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\mihai\Desktop\empty_proj\sources\application\main.c -o CMakeFiles\blinky.dir\sources\application\main.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE --sysroot="C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/../arm-none-eabi" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\mihai\Desktop\setup_for_arm_dev\sources\application\main.c -o CMakeFiles\blinky.dir\sources\application\main.c.s
 
 CMakeFiles/blinky.dir/sources/hardware/gcc_startup_nrf52.S.o: CMakeFiles/blinky.dir/flags.make
 CMakeFiles/blinky.dir/sources/hardware/gcc_startup_nrf52.S.o: ../sources/hardware/gcc_startup_nrf52.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mihai\Desktop\empty_proj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building ASM object CMakeFiles/blinky.dir/sources/hardware/gcc_startup_nrf52.S.o"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE --sysroot="C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/../arm-none-eabi" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\blinky.dir\sources\hardware\gcc_startup_nrf52.S.o -c C:\Users\mihai\Desktop\empty_proj\sources\hardware\gcc_startup_nrf52.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mihai\Desktop\setup_for_arm_dev\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building ASM object CMakeFiles/blinky.dir/sources/hardware/gcc_startup_nrf52.S.o"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE --sysroot="C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/../arm-none-eabi" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\blinky.dir\sources\hardware\gcc_startup_nrf52.S.o -c C:\Users\mihai\Desktop\setup_for_arm_dev\sources\hardware\gcc_startup_nrf52.S
 
 # Object files for target blinky
 blinky_OBJECTS = \
@@ -105,7 +105,7 @@ blinky.elf: CMakeFiles/blinky.dir/sources/application/main.c.o
 blinky.elf: CMakeFiles/blinky.dir/sources/hardware/gcc_startup_nrf52.S.o
 blinky.elf: CMakeFiles/blinky.dir/build.make
 blinky.elf: CMakeFiles/blinky.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mihai\Desktop\empty_proj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable blinky.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mihai\Desktop\setup_for_arm_dev\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable blinky.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\blinky.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -118,6 +118,6 @@ CMakeFiles/blinky.dir/clean:
 .PHONY : CMakeFiles/blinky.dir/clean
 
 CMakeFiles/blinky.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\mihai\Desktop\empty_proj C:\Users\mihai\Desktop\empty_proj C:\Users\mihai\Desktop\empty_proj\build C:\Users\mihai\Desktop\empty_proj\build C:\Users\mihai\Desktop\empty_proj\build\CMakeFiles\blinky.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\mihai\Desktop\setup_for_arm_dev C:\Users\mihai\Desktop\setup_for_arm_dev C:\Users\mihai\Desktop\setup_for_arm_dev\build C:\Users\mihai\Desktop\setup_for_arm_dev\build C:\Users\mihai\Desktop\setup_for_arm_dev\build\CMakeFiles\blinky.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/blinky.dir/depend
 

@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [            
+        {
+        "cwd": "${workspaceRoot}",
+        "executable": "${workspaceRoot}/build/blinky.elf",// Fill in your actual path according to your own situation, here I am only the sample project I used in the current demonstration
+        "name": "Debug",
+        "request": "launch",
+        "type": "cortex-debug",
+        "svdFile": "${workspaceRoot}/nrf52.svd",
+        "servertype": "jlink",//The choice of debugging emulator, which can support opennocd, pyocd, pe and stutil
+        "runToMain": true,//Stop at the main function as soon as debugging
+        "device": "NRF52840_XXAA",//Model of the device
+        "interface": "swd",//SWD interface
+        "ipAddress": null,
+        "serialNumber": null, 
+        },
+    ]
+}

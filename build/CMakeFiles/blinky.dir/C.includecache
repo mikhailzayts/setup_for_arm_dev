@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/mihai/Desktop/empty_proj/sources/application/main.c
+C:/Users/mihai/Desktop/setup_for_arm_dev/sources/application/main.c
 stdint.h
-C:/Users/mihai/Desktop/empty_proj/sources/application/stdint.h
+-
+stddef.h
+-
 

@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "C:/Users/mihai/Desktop/empty_proj/sources/hardware/gcc_startup_nrf52.S" "C:/Users/mihai/Desktop/empty_proj/build/CMakeFiles/blinky.dir/sources/hardware/gcc_startup_nrf52.S.o"
+  "C:/Users/mihai/Desktop/setup_for_arm_dev/sources/hardware/gcc_startup_nrf52.S" "C:/Users/mihai/Desktop/setup_for_arm_dev/build/CMakeFiles/blinky.dir/sources/hardware/gcc_startup_nrf52.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -13,7 +13,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/mihai/Desktop/empty_proj/sources/application/main.c" "C:/Users/mihai/Desktop/empty_proj/build/CMakeFiles/blinky.dir/sources/application/main.c.o"
+  "C:/Users/mihai/Desktop/setup_for_arm_dev/sources/application/main.c" "C:/Users/mihai/Desktop/setup_for_arm_dev/build/CMakeFiles/blinky.dir/sources/application/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -112,13 +112,7 @@ $RECYCLE.BIN/
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-### Crossworks
-*.ld
-*.ind
-project/crossworks/*/
-
-### VSCode 
-.vscode/
+build/
 
 ### Doxygen
 docs/*/
