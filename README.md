@@ -6,6 +6,7 @@
 - [MinGW](https://sourceforge.net/projects/mingw/files/)
 - [CMake](https://cmake.org/download/)
 - [J-Link](https://www.segger.com/downloads/jlink)
+
 Для корректной работы добавим папки bin для CMake, MinGW и ARM Toolchain в переменную среды Path.
 Проверим работоспособность установленных выше программ командами:
 '''
