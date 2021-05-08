@@ -1,2 +1,4 @@
-# setup_for_arm_dev
-Setting up Visual Studio Code for ARM embedded development
+# Настройка Visual Studio Code для Embedded разработки
+## Подготовка
+Неободимо установить следующие компоненты:
+- [Visual Studio Code](https://code.visualstudio.com/)
