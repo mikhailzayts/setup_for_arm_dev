@@ -22,7 +22,8 @@
 - [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
 - [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
 
-## Настроим окружение для примера peripheral/blinky из [nRF5-SDK](https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK).
+Настроим окружение для примера peripheral/blinky из [nRF5-SDK](https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK).
 
+## Настройка плагина Cortex-Debug
 
 
