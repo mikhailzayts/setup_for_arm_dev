@@ -17,8 +17,12 @@
 
 Для VSCode установим следующие расширения:
 - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+- [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
 - [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
 - [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
+
+## Настроим окружение для примера peripheral/blinky из [nRF5-SDK](https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK).
+
 
 
