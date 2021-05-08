@@ -1,5 +1,5 @@
 # Настройка Visual Studio Code для Embedded разработки
-Автор очень любит редактор кода Visual Studio Code
+Пример настройки для Windows 10.
 ## Подготовкa
 Установим программы по списку:
 - [Visual Studio Code](https://code.visualstudio.com/)
