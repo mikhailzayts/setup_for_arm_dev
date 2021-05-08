@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\mihai\Desktop\empty_proj\sources\application\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mihai\Desktop\empty_proj\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\mihai\Desktop\empty_proj\sources\hardware\gcc_startup_nrf52.S" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B88C90CE-ACA7-3C3C-9A74-C19717DBDAC1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
