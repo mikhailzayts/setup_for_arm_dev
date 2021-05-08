@@ -9,11 +9,9 @@
 
 Для корректной работы добавим папки bin для CMake, MinGW и ARM Toolchain в переменную среды Path.
 Проверим работоспособность установленных выше программ командами:
-'''
-arm-none-eabi-gcc --version
-make --version
-cmake --version
-'''
+> arm-none-eabi-gcc --version
+> make --version
+> cmake --version
 Для VSCode установим следующие расширения:
 - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 - [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
